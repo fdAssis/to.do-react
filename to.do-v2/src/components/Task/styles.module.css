@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: var(--gray-500);
+  border-radius: 8px;
+  font-size: 0.875rem;
+  padding: 1rem;
+
+  margin-top: 0.75rem;
+}
+
+.container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+}
+
+
+.container div input[type="checkbox"] {
+  appearance: none;
+  background-color: var(--gray-500);
+  width: 25px;
+  height: 25px;
+  border: 2px solid var(--purple);
+  border-radius: 9999px;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+}
+
+.container div input[type="checkbox"]:checked {
+  width: 25px;
+  height: 25px;
+  border: 2px solid var(--purple-dark);
+  background: var(--purple-dark);
+}
+
+/* .container p {
+  text-decoration: line-through;
+} */
+
+.container button {
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+  line-height: 0;
+}
+
+.container button svg {
+  color: var(--danger)
+}
+
+.container button svg:hover {
+  filter: brightness(0.8);
+}
