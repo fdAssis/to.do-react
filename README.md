@@ -38,4 +38,8 @@ Uma pequena aplicação de atividades a fazer, para treinar sobre manipulação 
  
  ## :zap: Resultado
 
+### UI V1
 <img src="https://res.cloudinary.com/dorzadlpq/video/upload/ac_none,e_accelerate:2/v1633739661/Github/reactjs/todo_reactjs_hgjjvo.gif" width=100% />
+
+### UI V2
+<img src="https://res.cloudinary.com/dorzadlpq/image/upload/v1670358235/Github/reactjs/to.to_eth634.png" width=100% />
